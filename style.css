@@ -1,0 +1,95 @@
+/*  Colors
+	#a4d7e3 Light Blue
+	#c5dfbc White Green
+	#97bf88 Light Green
+	#449c5c Green
+	#6f873a Dark Green
+	#333c43 Dark Gray 
+*/
+
+body {
+	font-family: Roboto, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: whitesmoke;
+	color: #333c43;
+}
+
+header {
+	background-color: #6f873a;
+	color: whitesmoke;
+	padding: 1px;
+	text-align: center;
+}
+
+h1 {
+	color: #c5dfbc
+}
+
+nav {
+	background-color: #6f873a;
+	border: 1px solid #97bf88;
+	padding: 1px;
+}
+
+nav a {
+	margin: 20px;
+	color: #97bf88;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #a4d7e3;
+	background-color: #97bf88;
+	text-decoration: underline;
+}
+
+main {
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+h2,
+h3,
+h4 {
+	color: #449c5c;
+	margin-top: 0px;
+}
+
+figure {
+	margin: 0px;
+	margin-bottom: 20px;
+	border: 1px solid #449c5c;
+	width: 400px;
+	height: 200px;
+}
+
+figure img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+section {
+	background-color: whitesmoke;
+	padding-right: 60%;
+}
+
+ul,
+ol {
+	list-style: georgian;
+	padding-left: 20px;
+}
+
+li {
+	background-color: whitesmoke;
+	color: #333c43;
+}
+
+footer {
+	background-color: #333c43;
+	color: whitesmoke;
+	text-align: center;
+	padding: 10px 0px;
+	width: 100%;
+}
